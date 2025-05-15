@@ -64,7 +64,11 @@ alter column p1_score int not null;
 
 alter table matches 
 alter column p2_score int not null;
-	  
+
+-- make m_id primary key
+alter table matches
+add constraint m_id_pk primary key (m_id);
+
 -- change constraint of scores to be >= 0
 alter table matches 
 add constraint p1_score_chk check (p1_score >= 0);
