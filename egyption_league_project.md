@@ -1,19 +1,22 @@
+## clubs table
+
 | p_id      | p_name      |
 |-----------|-------------|
 | 1         | Al Ahly     |
 | 2         | Zamalek     |
 | 3         | Pyramids    |
 
-
+## match table
 
 | m_id | p1_id        | p2_id        | p1_score | p2_score |
 |------|--------------|--------------|----------|----------|
 | 1    | 1 (Al Ahly)  | 2 (Zamalek)  | 3        | 3        |
 | 2    | 1 (Al Ahly)  | 3 (Pyramids) | 2        | 1        |
 | 3    | 2 (Zamalek)  | 3 (Pyramids) | 3        | 0        |
-| 2    | 3 (Pyramids) | 2 (Zamalek)  | 3        | 2        |
+| 4    | 3 (Pyramids) | 2 (Zamalek)  | 3        | 2        |
 
 
+## code
 
 ``` sql
 
